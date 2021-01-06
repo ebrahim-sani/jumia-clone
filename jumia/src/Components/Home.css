@@ -1,0 +1,159 @@
+/* Home
+---------------------------------*/
+.home {
+  margin-left: 90px;
+  margin-right: 20px;
+}
+.home_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px;
+}
+
+/* Home left Container
+---------------------------------*/
+.content {
+  display: flex;
+  margin: 10px;
+  background: #fff;
+  flex-direction: column;
+}
+.left_container {
+  display: flex;
+  background: #fff;
+  width: 200px;
+  margin-bottom: 300px;
+  margin-top: 0px;
+  border-radius: 4px;
+}
+.link {
+  font-size: 14px;
+  font-weight: 400;
+}
+p {
+  display: flex;
+  align-items: center;
+  margin: 4px;
+  width: 140px;
+  padding: 0px 0px 0px 8px;
+  color: #282828;
+  font-weight: 300;
+  background: #fff;
+  cursor: pointer;
+}
+small:hover {
+  color: #f68b1e;
+}
+.left_icon {
+  background: #fff;
+  width: 20px;
+  height: 15px;
+  margin: 4px;
+  display: flex;
+  align-items: center;
+}
+
+/* Home Mid Container
+---------------------------------*/
+.middle_container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5px;
+}
+.home_ad {
+  width: 700px;
+  height: 388px;
+  margin-left: 20px;
+  margin-right: 6px;
+  margin-bottom: 302px;
+  border-radius: 4px;
+}
+
+/* Home Right Container
+---------------------------------*/
+.right_container {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  width: 215px;
+  margin: 15px;
+  border-radius: 4px;
+  margin-bottom: 308px;
+}
+.left_content {
+  display: flex;
+  margin: 10px;
+  background: #fff;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content_one,
+.content_two,
+.content_three {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  background: #fff;
+  margin: 4px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+p {
+  font-size: 12px;
+  background: #fff;
+  align-items: center;
+  display: flex;
+}
+.head {
+  font-weight: 600;
+}
+.right_icon {
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  color: #f68b1e;
+  margin-right: 10px;
+}
+.mssge_text {
+  display: flex;
+  background: #fff;
+  flex-direction: column;
+}
+
+.r_ad {
+  margin-top: 25px;
+  width: 215px;
+  height: 170px;
+}
+
+/* Home Right Container
+---------------------------------*/
+.home_bottons {
+  margin-top: -20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.button_one,
+.button_two,
+.button_three,
+.button_four {
+  display: flex;
+  background: #fff;
+  flex-direction: row;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.button_text {
+  font-size: 15px;
+  font-weight: 600;
+}
+.button_four {
+  margin-right: 150px;
+}

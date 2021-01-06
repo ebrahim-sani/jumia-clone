@@ -4,7 +4,6 @@ import { FaAmazonPay } from "react-icons/fa";
 import { FaPaypal } from "react-icons/fa";
 import { FaApplePay } from "react-icons/fa";
 import { BsFillStarFill } from "react-icons/bs";
-import { BiSearchAlt2 } from "react-icons/bi";
 import PersonIcon from "@material-ui/icons/Person";
 import ArrowDropDownIcon from "@material-ui/icons/ArrowDropDown";
 import HelpOutlineIcon from "@material-ui/icons/HelpOutline";
