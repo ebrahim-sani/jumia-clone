@@ -1,7 +1,5 @@
 /* First Header
 ---------------------------------*/
-.header_one {
-}
 .headerOne_container {
   display: flex;
   flex-direction: row;
@@ -11,11 +9,15 @@
 
 img {
   width: 40px;
+  position: relative;
+  left: 20px;
 }
 
 .logo {
   margin-right: 15px;
   width: 50px;
+  position: relative;
+  left: 30px;
 }
 
 small {
@@ -60,7 +62,7 @@ small {
   align-items: center;
   justify-content: space-between;
   background: #fff;
-  height: 80px;
+  height: 70px;
 }
 
 .right_component {
@@ -68,11 +70,18 @@ small {
   align-items: center;
   justify-content: center;
   background: #fff;
-  margin: 50px;
+  position: relative;
+  margin-right: 2rem;
+  right: 5rem;
 }
-
+.profile,
+.help,
+.cart {
+  padding: 8px;
+}
 .headerTwo_logo {
-  margin-left: 90px;
+  margin-left: 70px;
+  background-color: #fff;
 }
 
 .img {
@@ -81,6 +90,8 @@ small {
 }
 .searchField {
   background-color: #fff;
+  position: relative;
+  right: 40px;
 }
 
 input {
@@ -89,13 +100,14 @@ input {
   height: 35px;
   border: none;
   margin-left: 90px;
-  outline: 1px solid gray;
+  outline: 1px solid rgb(212, 209, 209);
   background-color: #fff;
 }
 button {
   width: 90px;
   height: 38px;
   border: none;
+  font-size: 1rem;
   background-color: #df7c2b;
   color: #fff;
   border-radius: 4px;
@@ -113,7 +125,8 @@ button {
 }
 .text {
   background: #fff;
-  font-size: 20px;
+  font-size: 1em;
+  font-weight: 500;
 }
 .icons {
   background: #fff;
@@ -138,14 +151,3 @@ button {
 .cart:hover {
   color: #f68b1e;
 }
-/*.searchIcon {
-  margin-left: 50px;
-  position: relative;
-  left: 90px;
-  width: 30px;
-  height: 38px;
-  top: 14px;
-  background: #fff;
-  border: 1px solid gray;
-}
-*/
