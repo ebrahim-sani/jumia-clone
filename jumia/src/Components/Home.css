@@ -42,6 +42,8 @@
 ---------------------------------*/
 .home_img {
   width: 728px;
+  position: relative;
+  left: 20px;
 }
 /* Right COmponent 
 ---------------------------------*/
@@ -56,30 +58,130 @@
 .first_component {
   background-color: #fff;
   margin: 5px;
+  height: 150px;
 }
 span {
-  padding-left: 5px;
+  padding-left: 7px;
+  padding-top: 5px;
   background-color: #fff;
 }
 p {
-  font-size: 1em;
+  font-size: 0.8em;
 }
 span > h3,
 p {
   background-color: #fff;
+  color: rgb(63, 63, 63);
 }
 .right_icon {
-  width: 2rem;
-  height: 2rem;
+  width: 2.3rem;
+  height: 2.3rem;
   background-color: #fff;
   padding-left: 5px;
   color: #f68b1e;
 }
 /* Right COmponent Two
 ---------------------------------*/
-
-.second_component > img {
+.right_ad {
+  width: 220px;
+  margin-top: 45px;
+}
+/* Button COmponent 
+---------------------------------*/
+.button {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+.btn_gif {
+  width: 40px;
+  background-color: #fff;
+  margin-left: 15px;
+}
+.btn_con {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  height: 50px;
   width: 200px;
-  position: relative;
-  top: 50px;
+  cursor: pointer;
+}
+.btn_text {
+  font-weight: 500;
+}
+/* Top Selling COmponent 
+---------------------------------*/
+.top_selling {
+  background-color: #fff;
+  position: static;
+}
+.topSelling_heading {
+  margin-top: 10px;
+}
+.topSelling_heading h3 {
+  background-color: #fff;
+  padding-left: 0.5em;
+  height: 30px;
+}
+.topSelling_container {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+}
+/* Top Deal COmponent 
+---------------------------------*/
+.deal_day {
+  background-color: #fff;
+  position: static;
+}
+.dealDay_heading {
+  margin-top: 10px;
+}
+.dealDay_heading h3 strong {
+  background-color: #ff0000;
+}
+.dealDay_heading h3 {
+  background-color: #ff0000;
+  padding-left: 0.5em;
+  height: 30px;
+  color: white;
+  font-weight: normal;
+}
+/* Clearance Sale COmponent 
+---------------------------------*/
+.clearance_sale {
+  background-color: #fff;
+  position: static;
+}
+.clearance_heading {
+  margin-top: 10px;
+}
+.clearance_heading h3 strong {
+  background-color: #0000ff;
+}
+.clearance_heading h3 {
+  background-color: #0000ff;
+  padding-left: 0.5em;
+  height: 30px;
+  color: white;
+  font-weight: normal;
+}
+
+/* Categoreis COmponent 
+---------------------------------*/
+.categories__content {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 5px;
+}
+.categores_heading {
+  margin-top: 5px;
+  background-color: #fff;
+  padding-left: 0.5em;
+  font-weight: normal;
+  font-size: 1.3rem;
+}
+.categores__product {
+  background-color: #fff;
 }

@@ -1,16 +1,13 @@
-/* img {
-  width: 100%;
-  height: 100%;
-}
-
-.cat_product {
+.categies_content {
+  display: block;
+  box-sizing: border-box;
   display: flex;
-  flex-direction: column;
-  margin: 0px;
   align-items: center;
-}
-
-.categories {
+  flex-direction: column;
   background-color: #fff;
-  width: 100%;
-} */
+}
+.categies_content:hover {
+  transform: scale(1.03);
+  transition: all 0.2s ease-out;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
