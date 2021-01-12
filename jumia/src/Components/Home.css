@@ -1,10 +1,10 @@
 /* Home
 ---------------------------------*/
-.home {
+.hero-section {
   margin-right: 90px;
   margin-left: 90px;
 }
-.home_container {
+.hero_container {
   margin-top: 10px;
   display: flex;
   align-items: flex-start;

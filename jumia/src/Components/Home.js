@@ -2,6 +2,8 @@ import React from "react";
 import "./Home.css";
 import TopProduct from "./TopProduct";
 import Categories from "./Categories";
+import Ad from "./Ad";
+import HomeButton from "./HomeButton";
 import { AiOutlineApple } from "react-icons/ai";
 import { GiSelfLove } from "react-icons/gi";
 import { AiOutlineHome } from "react-icons/ai";
@@ -20,8 +22,8 @@ import { FaSellcast } from "react-icons/fa";
 
 function Home() {
   return (
-    <div className="home">
-      <div className="home_container">
+    <div className="hero-section">
+      <div className="hero_container">
         <div className="content">
           <p className="link">
             <AiOutlineApple className="left_icon" />
@@ -110,38 +112,22 @@ function Home() {
       </div>
       <div className="btn_container">
         <div className="button">
-          <div className="btn_con">
-            <img
-              className="btn_gif"
-              src="https://ng.jumia.is/cms/Homepage/2021/w01/cs-ql.png"
-              alt=""
-            />
-            <span className="btn_text">Clearance Sale</span>
-          </div>
-          <div className="btn_con">
-            <img
-              className="btn_gif"
-              src="https://ng.jumia.is/cms/QuickLinks/jumia-food-new.png"
-              alt=""
-            />
-            <span className="btn_text">Jumia Food</span>
-          </div>
-          <div className="btn_con">
-            <img
-              className="btn_gif"
-              src="https://ng.jumia.is/cms/BF20/Icon-red.png"
-              alt=""
-            />
-            <span className="btn_text">Official Stores</span>
-          </div>
-          <div className="btn_con">
-            <img
-              className="btn_gif"
-              src="https://ng.jumia.is/cms/QuickLinks/JumiaGlobal.png"
-              alt=""
-            />
-            <span className="btn_text">Jumia Global</span>
-          </div>
+          <HomeButton
+            image="https://ng.jumia.is/cms/Homepage/2021/w02/quicklink-(2).png"
+            title="Back to Work"
+          />
+          <HomeButton
+            image="https://ng.jumia.is/cms/QuickLinks/jumia-food-new.png"
+            title="Jumia Food"
+          />
+          <HomeButton
+            image="https://ng.jumia.is/cms/BF20/Icon-red.png"
+            title="Official Stores"
+          />
+          <HomeButton
+            image="https://ng.jumia.is/cms/QuickLinks/JumiaGlobal.png"
+            title="Jumia Global"
+          />
         </div>
       </div>
       <div className="top_selling">
@@ -151,32 +137,32 @@ function Home() {
         <div className="topSelling_container">
           <TopProduct
             image="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/57/996876/1.jpg?4315"
-            title="F9-30 Wireless Headphones Blue.."
+            title="F9-30 Wireless Headphones.."
             price="₦ 1,800"
           />
           <TopProduct
             image="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/83/426463/1.jpg?8622"
-            title="Soundbar Bluetooth Speaker T.."
+            title="Soundbar Bluetooth Speaker..."
             price="₦ 6,900"
           />
           <TopProduct
             image="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/91/035411/1.jpg?7658"
-            title="Binatone Dry Iron DI-1255-Wh..."
+            title="Binatone Dry Iron DI-1255..."
             price="₦ 6,000"
           />
           <TopProduct
-            image="https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/29/042456/1.jpg?2575"
+            image="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/76/242456/1.jpg?3299"
             title="UMIDIGI A7S Infrared Te.."
             price="₦ 37,900"
           />
           <TopProduct
             image="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/29/973734/1.jpg?4289"
-            title="Color Screen Smart Bracelet D1.."
+            title="Color Screen Smart Bracelet.."
             price="₦ 2,900"
           />
           <TopProduct
             image="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/21/285244/1.jpg?2247"
-            title="100% Cotton 12 Pieces Of Men..."
+            title="100% Cotton 12 Pieces Of..."
             price="₦ 5,500"
           />
         </div>
@@ -190,32 +176,32 @@ function Home() {
         <div className="topSelling_container">
           <TopProduct
             image="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/91/035411/1.jpg?7658"
-            title="Binatone Dry Iron DI-1255 - Wh..."
+            title="Binatone Dry Iron DI-1255..."
             price="₦ 6,000"
           />
           <TopProduct
             image="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/80/996666/1.jpg?9057"
-            title="Nexus 1.7L Electric kettle - NX..."
+            title="Nexus 1.7L Electric kettle..."
             price="₦ 3,000"
           />
           <TopProduct
             image="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/63/096344/1.jpg?9265"
-            title="Wireless Earbuds Headset Bluet..."
+            title="Wireless Earbuds Headset..."
             price="₦ 5,900"
           />
           <TopProduct
             image="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/77/843011/1.jpg?0974"
-            title="Men's Lace-up Canvas - Blue.."
+            title="Men's Lace-up Canvas.."
             price="₦ 3,600"
           />
           <TopProduct
-            image="https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/29/042456/1.jpg?2575"
+            image="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/76/242456/1.jpg?3299"
             title="UMIDIGI A7S Infrared Te.."
             price="₦ 37,900"
           />
           <TopProduct
-            image="https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/29/042456/1.jpg?2575"
-            title="UMIDIGI A7S Infrared Te.."
+            image="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/63/659544/1.jpg?5008"
+            title="SIM/TF Bluetooth Wrist.."
             price="₦ 37,900"
           />
         </div>
@@ -229,17 +215,17 @@ function Home() {
         <div className="topSelling_container">
           <TopProduct
             image="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/33/238366/1.jpg?3293"
-            title="LouisWill Women Lightweight C.."
+            title="LouisWill Women Lightweight.."
             price="₦ 7,900"
           />
           <TopProduct
             image="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/42/316606/1.jpg?3404"
-            title="Ladies Backpag For..."
+            title="Ladies Backpag For Fashi..."
             price="₦ 3,900"
           />
           <TopProduct
             image="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/51/316606/1.jpg?3484"
-            title="Women Handbag For Women B..."
+            title="Women Handbag For Outi..."
             price="₦ 5,900"
           />
           <TopProduct
@@ -255,7 +241,7 @@ function Home() {
           <TopProduct
             image="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/31/152174/1.jpg?0340"
             title="Small Bags Messenger Ba..."
-            price="₦ 37,900"
+            price="₦ 3,7900"
           />
         </div>
       </div>
@@ -315,16 +301,8 @@ function Home() {
         </div>
       </div>
       <div className="ad_post">
-        <div className="adPost_container">
-          <img
-            src="https://ng.jumia.is/cms/Homepage/2021/w01/Artboard-1-copy.png"
-            alt=""
-          />
-          <img
-            src="https://ng.jumia.is/cms/CHRISTMASSALE20/FLOOR/0E41D6FA-FC94-440B-A293-19833A599429.jpeg"
-            alt=""
-          />
-        </div>
+        <Ad img="https://ng.jumia.is/cms/Homepage/2021/w01/Artboard-1-copy.png" />
+        <Ad img="https://ng.jumia.is/cms/CHRISTMASSALE20/FLOOR/0E41D6FA-FC94-440B-A293-19833A599429.jpeg" />
       </div>
     </div>
   );

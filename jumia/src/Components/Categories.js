@@ -1,7 +1,7 @@
 import React from "react";
 import "./Categories.css";
 
-function Categories(image, title) {
+function Categories({ image, title }) {
   return (
     <div className="categores">
       <div className="categories_component">
