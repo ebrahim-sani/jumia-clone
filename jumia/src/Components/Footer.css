@@ -1,0 +1,73 @@
+/* First Component
+________________________________*/
+.footer {
+  margin-top: 20px;
+  margin-right: 90px;
+  margin-left: 90px;
+  background: rgb(38, 39, 41);
+}
+.first-component {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-logo > img {
+  width: 130px;
+}
+
+.right__icon > img {
+  width: 45px;
+  margin-right: 8px;
+}
+.m-app {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.desc > h3 {
+  font-size: 0.78rem;
+}
+.form > h3 {
+  font-size: 0.78rem;
+}
+.form > p {
+  background-color: #ededed;
+}
+.subs-field {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.form-btn {
+  background-color: black;
+  padding: 5px;
+  width: 50%;
+  margin-left: 10px;
+}
+.form__btn {
+  display: flex;
+  flex-direction: row;
+}
+.desc > p {
+  margin-top: 10px;
+  background-color: #ededed;
+}
+.input__field > input {
+  padding: 7px;
+  outline: none;
+  background-color: whitesmoke;
+}
+
+.input__field {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: whitesmoke;
+  height: 15px;
+  border-radius: 4px;
+  width: 100%;
+}
+.email-icon {
+  color: gray;
+  background-color: whitesmoke;
+}

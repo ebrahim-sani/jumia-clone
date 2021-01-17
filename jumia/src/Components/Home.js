@@ -2,7 +2,6 @@ import React from "react";
 import "./Home.css";
 import TopProduct from "./TopProduct";
 import Categories from "./Categories";
-import Ad from "./Ad";
 import HomeButton from "./HomeButton";
 import { AiOutlineApple } from "react-icons/ai";
 import { GiSelfLove } from "react-icons/gi";
@@ -301,8 +300,134 @@ function Home() {
         </div>
       </div>
       <div className="ad_post">
-        <Ad img="https://ng.jumia.is/cms/Homepage/2021/w01/Artboard-1-copy.png" />
-        <Ad img="https://ng.jumia.is/cms/CHRISTMASSALE20/FLOOR/0E41D6FA-FC94-440B-A293-19833A599429.jpeg" />
+        <img
+          className="ad_one"
+          src="https://ng.jumia.is/cms/Homepage/2021/w01/Artboard-1-copy.png"
+          alt="Ad-img"
+        />
+        <img
+          className="ad_two"
+          src="https://ng.jumia.is/cms/CHRISTMASSALE20/FLOOR/0E41D6FA-FC94-440B-A293-19833A599429.jpeg"
+          alt="Ad-img"
+        />
+      </div>
+      <div className="categores__product">
+        <h3 className="categores_heading">Featured Categories</h3>
+        <div className="categories__content">
+          <Categories
+            image="https://ng.jumia.is/cms/Homepage/2021/w02/home-office_260x144.jpg"
+            title="Home Office"
+          />
+          <Categories
+            image="https://ng.jumia.is/cms/Homepage/2021/w02/office-equipment_260x144.jpg"
+            title="For Office"
+          />
+          <Categories
+            image="https://ng.jumia.is/cms/000_DesktopHomepage/4_cat-(2).png"
+            title="Televisions"
+          />
+          <Categories
+            image="https://ng.jumia.is/cms/00_MobileHomepage/TV_MANIA/9.jpg"
+            title="Laptops"
+          />
+          <Categories
+            image="https://ng.jumia.is/cms/Homepage/2021/w02/work-tools_260x144.jpg"
+            title="Work Tools"
+          />
+          <Categories
+            image="https://ng.jumia.is/cms/00_MobileHomepage/TV_MANIA/1D.jpg"
+            title="Wigs"
+          />
+        </div>
+        <div className="categories__content">
+          <Categories
+            image="https://ng.jumia.is/cms/00_MobileHomepage/NG_Smartwatches.jpg"
+            title="Smart Watches"
+          />
+          <Categories
+            image="https://ng.jumia.is/cms/00_MobileHomepage/Pics2.jpg"
+            title="Toasters"
+          />
+          <Categories
+            image="https://ng.jumia.is/cms/Homepage/2021/w02/stay-safe_260x144.jpg"
+            title="Stay Safe"
+          />
+          <Categories
+            image="https://ng.jumia.is/cms/Homepage/2021/w02/fashion_260x144.jpg"
+            title="Work Fashion"
+          />
+          <Categories
+            image="https://ng.jumia.is/cms/00_MobileHomepage/printers-hp.png"
+            title="Printers"
+          />
+          <Categories
+            image="https://ng.jumia.is/cms/00_MobileHomepage/icon-5.jpg"
+            title="Keyboards"
+          />
+        </div>
+      </div>
+      <div className="ad_post">
+        <img
+          className="ad_one"
+          src="https://ng.jumia.is/cms/Homepage/2021/w02/Smartphones.jpg"
+          alt="Ad-img"
+        />
+        <img
+          className="ad_two"
+          src="https://ng.jumia.is/cms/Homepage/2021/w02/Sneakers-copy.jpg"
+          alt="Ad-img"
+        />
+      </div>
+      <div className="clearance_sale">
+        <div className="clearance_heading">
+          <h3>
+            <strong>Home Office</strong> | Up to 40% Off
+          </h3>
+        </div>
+        <div className="topSelling_container">
+          <TopProduct
+            image="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/59/515426/1.jpg?2081"
+            title="Hp DESKJET 2620 WIRELE.."
+            price="₦ 17,900"
+          />
+          <TopProduct
+            image="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/83/478226/1.jpg?5094"
+            title="Mercury Maverick 850va..."
+            price="₦ 13,900"
+          />
+          <TopProduct
+            image="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/88/140226/1.jpg?6154"
+            title="Lee Buy Bluetooth Earph..."
+            price="₦ 5,900"
+          />
+          <TopProduct
+            image="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/98/372076/1.jpg?6176"
+            title="Bluetooth Headphone 5.0.."
+            price="₦ 7,900"
+          />
+          <TopProduct
+            image="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/14/030236/1.jpg?5454"
+            title="Smart Watch M4C Water..."
+            price="₦ 7,999"
+          />
+          <TopProduct
+            image="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/14/61175/1.jpg?7723"
+            title="SanDisk 64GB Ultra OTG..."
+            price="₦ 4,7900"
+          />
+        </div>
+      </div>
+      <div className="ad_post">
+        <img
+          className="ad_one"
+          src="https://ng.jumia.is/cms/Homepage/2021/w02/Watches.jpg"
+          alt="Ad-img"
+        />
+        <img
+          className="ad_two"
+          src="https://ng.jumia.is/cms/Homepage/2021/w02/Gas-cooker.jpg"
+          alt="Ad-img"
+        />
       </div>
     </div>
   );

@@ -9,6 +9,16 @@
   display: flex;
   align-items: flex-start;
 }
+.topSelling_heading,
+.dealDay_heading,
+.clearance_heading {
+  padding-top: 10px;
+}
+.categores__product,
+.ad_post {
+  margin-top: 20px;
+}
+
 /* Left COmponent
 ---------------------------------*/
 .content {
@@ -56,6 +66,8 @@
 /* Right COmponent One
 ---------------------------------*/
 .first_component {
+  display: flex;
+  flex-direction: column;
   background-color: #fff;
   margin: 5px;
   height: 150px;
@@ -174,6 +186,7 @@ p {
   align-items: center;
   flex-direction: row;
   margin: 5px;
+  background-color: #fff;
 }
 .categores_heading {
   margin-top: 5px;
@@ -184,4 +197,23 @@ p {
 }
 .categores__product {
   background-color: #fff;
+}
+/* Ad COmponent 
+---------------------------------*/
+.ad_post {
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.ad_post > img:hover {
+  transform: scale(1.03);
+  transition: all 0.2s ease-out;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.ad_one,
+.ad_two {
+  width: 50%;
 }
