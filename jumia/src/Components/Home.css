@@ -207,6 +207,7 @@ p {
   align-items: center;
   box-sizing: border-box;
   background-color: #fff;
+  /* border-bottom: 1px solid gray; */
 }
 .ad_post > img:hover {
   transform: scale(1.03);
